@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+        .box-1{
+            background-color: black;
+            border: solid 10px blue; /*รูปแบบเส้น ขนาด สี*/
+        }
+        .box-2{
+            background-color:blue;
+            border: dotted 10px red;
+        }
+        .box-3{
+            background-color:brown;
+            border: dashed 10px black;
+        }
+        .box-4{
+            background-color:darkgreen;
+            border-radius: 30px; /*ความโค้งเส้นขอบ*/
+        }
+        .box-5{
+            background-color:orange;
+            border-top-style: dashed;
+            border-left-style: solid;
+            border-right-style: dotted;
+            border-bottom-style: double;
+            border-color: rgb(100, 0, 200);
+        }
+        .box-6{
+            background-color: aqua;
+            border-top-style: dashed;
+            border-left-style: solid;
+            border-right-style: dotted;
+            border-bottom-style: double;
+            border-top-color: rgb(100, 0, 200);
+            border-bottom-color: rgb(0, 200, 0);
+            border-left-color: rgb(200, 0, 0);
+            border-width: 10px;
+        }
+        .box-7{
+            background-color: white;
+            border-style: solid;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 60px;
+        }
+        hr{
+            border: solid 2.5px black;
+        }
+        img{
+            border: dashed 10px orange;
+            border-radius: 30px;
+            max-width: 500px;
+            max-height: 500px;
+            border-top-width: 5px;
+            border-left-width: 10px;
+            border-right-width: 20px;
+            border-bottom-width: 40px;
+        }
+        .example-class{
+            border-style: solid; /*ระบุแค่ style*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1"></div>
+    <hr>
+    <div class="box-2"></div>
+    <hr>
+    <div class="box-3"></div>
+    <hr>
+    <div class="box-4"></div>
+    <hr>
+    <div class="box-5"></div>
+    <hr>
+    <div class="box-6"></div>
+    <hr>
+    <div class="box-7"></div>
+    <hr>
+    <img src="https://cdn.pixabay.com/photo/2017/06/01/12/21/surf-2363367_1280.jpg" alt="">
+    <hr>
+    <img src="https://cdn.pixabay.com/photo/2023/10/11/03/33/door-8307616_1280.jpg" class="example-class" alt="">
+</body>
+</html>
